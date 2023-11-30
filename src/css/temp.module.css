@@ -1,0 +1,231 @@
+.topDiv {
+  margin: auto;
+  margin-top: var(--nav-margin);
+  width: var(--good-width);
+}
+
+.quoteText {
+  font-size: 1.6rem;
+  color: var(--light-purple);
+}
+
+.topText {
+  text-align: left;
+  width: 70%;
+  font-size: var(--big-title-fsz);
+  font-weight: var(--big-title-fwt);
+}
+
+.commonDiv {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+
+.cardDiv {
+  margin: auto;
+  margin-top: 24px;
+  background-color: var(--grey-purple);
+  border-radius: var(--contri-btn-border-rad);
+  padding: 80px 50px 80px 50px;
+}
+
+.cardText {
+  font-size: var(--title-fsz);
+  font-size: 2.8rem;
+  font-weight: var(--title-fwt);
+  margin: auto;
+  text-align: center;
+}
+
+.leftDiv {
+}
+
+.rightDiv {
+}
+
+.marginDiv {
+  margin-top: 300px;
+}
+
+.commonText {
+  color: white;
+  font-family: var(--heading-font);
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+.visitText {
+  text-decoration: none;
+}
+
+.visitDiv {
+  margin-top: 30px;
+}
+
+.visitText:hover {
+  color: var(--dark-purple);
+}
+
+/* mobile and tab ***************************************************************************************** */
+
+/* @media (max-width: 1500px) and (min-width: 992px) {
+  .cardDiv {
+    width: 70%;
+  }
+
+  .leftDiv {
+    margin-left: 0;
+  }
+
+  .rightDiv {
+    margin-right: 0;
+  }
+} */
+
+@media (max-width: 991.33px) and (min-width: 768px) {
+  .topText {
+    font-size: var(--tab-big-title-fsz);
+    font-weight: var(--tab-big-title-fwt);
+  }
+
+  .quoteText {
+    font-size: 1rem;
+  }
+
+  .cardDiv {
+    width: 70%;
+    padding: 70px 40px 70px 40px;
+  }
+
+  .cardText {
+    font-size: var(--tab-sub-title-fsz);
+    font-weight: var(--title-fwt);
+  }
+
+  .leftDiv {
+    margin-left: 0;
+  }
+
+  .rightDiv {
+    margin-right: 0;
+  }
+
+  .marginDiv {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 650px) {
+  .topText {
+    font-size: 2.4rem;
+    font-size: var(--tab-title-fsz);
+    font-weight: var(--tab-big-title-fwt);
+  }
+
+  .quoteText {
+    font-size: 1rem;
+  }
+
+  .cardDiv {
+    width: 70%;
+    padding: 80px 40px 80px 40px;
+  }
+
+  .cardText {
+    font-size: var(--tab-sub-title-fsz);
+    font-weight: var(--title-fwt);
+  }
+
+  .leftDiv {
+    margin-left: 0;
+  }
+
+  .rightDiv {
+    margin-right: 0;
+  }
+
+  .marginDiv {
+    margin-top: 80px;
+  }
+
+  .visitDiv {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 500px) {
+  .topText {
+    font-size: var(--tab-sub-title-fsz);
+    font-weight: var(--tab-big-title-fwt);
+  }
+
+  .quoteText {
+    font-size: 1rem;
+  }
+
+  .cardDiv {
+    width: 70%;
+    padding: 60px 50px 60px 50px;
+  }
+
+  .cardText {
+    font-size: var(--tab-big-desc-fsz);
+    font-weight: var(--tab-title-fwt);
+  }
+
+  .leftDiv {
+    margin-left: 0;
+  }
+
+  .rightDiv {
+    margin-right: 0;
+  }
+
+  .marginDiv {
+    margin-top: 60px;
+  }
+
+  .visitDiv {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .topText {
+    font-size: var(--tab-big-desc-fsz);
+    font-weight: var(--tab-big-title-fwt);
+    width: 75%;
+  }
+
+  .quoteText {
+    font-size: 0.8rem;
+  }
+
+  .cardDiv {
+    width: 70%;
+    padding: 40px 30px 40px 30px;
+  }
+
+  .cardText {
+    font-size: var(--tab-desc-fsz);
+    font-weight: var(--tab-title-fwt);
+  }
+
+  .leftDiv {
+    margin-left: 0;
+  }
+
+  .rightDiv {
+    margin-right: 0;
+  }
+
+  .marginDiv {
+    margin-top: 20px;
+  }
+
+  .visitDiv {
+    margin-top: 15px;
+  }
+}

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.996d3ef6.css",
-    "main.js": "/my-app/static/js/main.6fe498de.js",
-    "index.html": "/my-app/index.html",
-    "main.996d3ef6.css.map": "/my-app/static/css/main.996d3ef6.css.map",
-    "main.6fe498de.js.map": "/my-app/static/js/main.6fe498de.js.map"
+    "main.css": "/bnw.clothing/static/css/main.996d3ef6.css",
+    "main.js": "/bnw.clothing/static/js/main.6fe498de.js",
+    "index.html": "/bnw.clothing/index.html",
+    "main.996d3ef6.css.map": "/bnw.clothing/static/css/main.996d3ef6.css.map",
+    "main.6fe498de.js.map": "/bnw.clothing/static/js/main.6fe498de.js.map"
   },
   "entrypoints": [
     "static/css/main.996d3ef6.css",
